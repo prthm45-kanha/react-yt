@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'helvetica neue';
+color: white;
+
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.card{
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: #333;
+}
+.card p{
+  margin: 20px 0;
+}
+.card img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card button{
+  padding: 10px 20px;
+  color: turquoise;
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}

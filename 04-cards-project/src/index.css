@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: helvetica neue;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.parent{
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+    padding: 30px;
+    display: flex;
+ gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+
+  height: 340px;
+  width: 280px;
+  background-color: white;
+  border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.top img{
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+ border: 1px solid #dadada;
+ padding: 2px;
+}
+.top button{
+  display: flex;
+  color: #b1b1b1;
+  align-items: center;
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 5px;
+  background-color: transparent;
+  border:1px solid  #dadada;
+  gap: 3px;
+}
+
+.bottom{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 15px;
+}
+.centre h3{
+  font-size: 18px;
+  font-weight: 500;
+  }
+  .centre h3 span{
+    margin-left: 3px;
+    font-size: 9px;
+    font-family: 400;
+    color: #8b8b8b;
+  }
+  .centre h2{
+    font-size: 20px;
+    
+  }
+  .centre .tag{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .centre .tag h4{
+    font-size: 12px;
+    background-color: #dadada;
+    color: #111;
+    font-weight: 500;
+    padding: 4px 8px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+  }
+.bottom button{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  
+}
