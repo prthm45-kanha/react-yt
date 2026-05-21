@@ -1,0 +1,18 @@
+import React, { useContext } from 'react'
+import { ThemeDataContext } from '../context/ThemeContext'
+
+const Button = () => {
+    const [theme,setTheme] =useContext(ThemeDataContext)
+
+    const changeTheme=()=>{
+        setTheme(theme === 'light' ? 'dark' : 'light')
+    }
+  return (
+    <div>
+      <button className=' bg-red-300 p-3 active:scale-95'
+      onClick={changeTheme}>Change Theme</button>
+    </div>
+  )
+}
+
+export default Button
